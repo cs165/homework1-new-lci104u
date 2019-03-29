@@ -1,3 +1,122 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+body {
+  margin: 0;
+  /*background-color: black;*/
+}
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+.text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+#HEADER {
+  width: auto;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/Titan-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#HEADER h1 {
+  max-width: 780px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+#PROFILE {
+  line-height: 24px;
+  margin-top: -100px;
+  border-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#PROFILE .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 1px white solid;
+  background-image: url(../images/historia.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.profile-txt {
+  text-align: center;
+}
+#name /*under #PROFILE*/{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px;
+}
+#time /*under #PROFILE*/{
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+article {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.one-of-list {
+  margin-bottom: 120px;
+}
+/*#S1 {
+  background-image: url(../images/Titan-S1-0.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}*/
+.num {
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 40px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.contain-block {
+  display: inline-block;
+  width: 66.67%;
+  vertical-align: top;
+  text-align: left;
+}
+.contain-block h2 {
+  margin: 0;
+}
+/*.contain-block a:link {
+  color: #42b4d6;
+  text-decoration: none;
+}
+.contain-block a:hover {
+  text-decoration: underline;
+}*/
+.contain-block img {
+  width: 100%;
+}
+.paragraph {
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*.contain-txt {
+}
+.recom {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.recommendation {
+  font-weight: bold;
+}*/
