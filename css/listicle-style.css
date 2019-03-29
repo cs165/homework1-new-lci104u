@@ -61,18 +61,19 @@ article {
 
 .one-of-list {
   margin-bottom: 120px;
+  display: flex;
+}
+.centerer {
+  flex-basis: 16.67%;
 }
 .num {
-  display: inline-block;
-  width: 16.67%;
   text-align: right;
   font-weight: normal;
   margin-right: 40px;
   color: rgba(0, 0, 0, 0.25);
 }
 .contain-block {
-  display: inline-block;
-  width: 66.67%;
+  flex-basis: 66.67%;
   vertical-align: top;
   text-align: left;
 }
@@ -106,5 +107,5 @@ article {
   font-weight: bold;
 }
 #last {
-  margin-bottom: 0;
+  margin-bottom: 60px;
 }
